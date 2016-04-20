@@ -1,1 +1,25 @@
 /* Empty. Add your own CSS if you like */
+.ini{
+	background-color:rgba(0,0,0,1.00);
+	display:flex;
+	flex-flow:wrap row;
+	vertical-align:middle;
+	align-content:center;
+	align-items:center;
+	
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url(../img/background1.jpg);}
+	
+.ini div{
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	flex-flow:wrap column;
+	align-content:center;
+	align-items:center;
+	}
+.ini label{margin-bottom:10px;}
+.ini button{margin-left:auto;
+margin-right:auto;}
