@@ -18,6 +18,11 @@ angular.module('yubi', ['ionic', 'yubi.controllers'])
     url: '/',
     templateUrl: 'templates/home.html',
     controller: 'HomeCtrl'
+  })
+  .state('search', {
+    url: '/search',
+    templateUrl: 'templates/search.html',
+    controller: 'SearchCtrl'
   });
   $urlRouterProvider.otherwise('/');
 });
